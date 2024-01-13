@@ -1,8 +1,9 @@
 project:
   type: website
+  output-dir: docs
 
 website:
-  title: "rBlog"
+  title: "Raphael Palucci Rosa"
   navbar:
     right:
       - about.qmd
