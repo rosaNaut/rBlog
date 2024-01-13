@@ -1,1 +1,11 @@
 /* css styles */
+
+/* Change navbar text size */
+.navbar {
+  font-size: 18px; /* Adjust the size as needed */
+}
+
+/* Change navbar font */
+.navbar {
+  font-family: "Your Desired Font", sans-serif; /* Specify the desired font */
+}
