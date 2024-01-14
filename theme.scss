@@ -12,9 +12,28 @@ $navbar-bg: #ecf4ec ; //The background color of the navbar.
 $navbar-fg: #7d533e ; //The color of foreground elements (text and navigation) on the navbar.
 //$navbar-hl: ;  //The highlight color for links in the navbar.
 
+//Page footer 
+
 // Code blocks
 $code-block-bg-alpha: -.8;
 
 
 /*-- scss:rules --*/
 
+.nav-link {
+  font-size: 15px;
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+}
+
+.nav-footer .nav-footer-left {
+  font-size: .825em;
+}
+
+.nav-footer {
+  color: black;
+}
+
+.nav-footer a {
+  color: #7d533e;
+}
