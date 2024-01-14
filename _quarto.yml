@@ -6,12 +6,35 @@ website:
   title: "Raphael Palucci Rosa"
   navbar:
     right:
-      - text: "ABOUT"
-        href: about.qmd
       - icon: github
         href: https://github.com/
       - icon: rss
         href: rBlog.xml
+    left: 
+      - text: "ABOUT"
+        href: about.qmd
+      - text: "BLOG"
+        href: blog.qmd
+      - text: "GUIDES"
+        href: guides.qmd
+      - text: "PUBLICATIONS"
+        href: publications.qmd
+      - text: "PROJECTS"
+        href: projects.qmd
+  page-footer: 
+    left: "© 2024 Raphael P. Rosa ∙ Made with [Quarto](https://quarto.org/)"
+    center: 
+      - icon: github
+        href: https://github.com/
+      - icon: linkedin 
+        href: https://www.linkedin.com/in/raphael-palucci-rosa-79767579/
+    right: 
+      - text: "Accessibility"
+        href: accessibility.qmd
+      - text: "Contact"
+        href: contact.qmd
+      - text: "License"
+        href: license.qmd
 format:
   html:
     theme: 
@@ -20,4 +43,3 @@ format:
     css: styles.css
 
 editor: visual
-
