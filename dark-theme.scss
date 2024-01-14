@@ -10,3 +10,12 @@ $navbar-bg: #181818 ;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
+
+
+/*-- scss:rules --*/
+
+.nav-link {
+  font-size: 15px;
+  font-weight: var(--bs-nav-link-font-weight);
+  color: var(--bs-nav-link-color);
+}
