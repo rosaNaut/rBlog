@@ -3,11 +3,11 @@ html:
     margin-top: 100px
 title: "Raphael P. Rosa, Ph.D."
 subtitle: "Research fellow at University of Bergamo (Italy)"
-image: C:\Users\RosaRaphael\Documents\rBlog\pictures\Nautillus.png
+image: Nautillus.png
 about:
   template: solana
-  image-width: 28em
-  #image-alt: "A Nautillus shell representing the path of scientific knowledge"
+  image-width: 20em
+  image-alt: "A Nautillus shell representing the path of scientific knowledge"
   links:
     - icon: linkedin
       text: LinkedIn
