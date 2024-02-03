@@ -1,21 +1,42 @@
 [
   {
-    "objectID": "publications.html",
-    "href": "publications.html",
+    "objectID": "publications/publications.html",
+    "href": "publications/publications.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
     "text": "Teste"
   },
   {
-    "objectID": "guides.html",
-    "href": "guides.html",
+    "objectID": "guides/guides.html",
+    "href": "guides/guides.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
     "text": "Teste"
   },
   {
-    "objectID": "blog.html",
-    "href": "blog.html",
+    "objectID": "blog/blog.html",
+    "href": "blog/blog.html",
+    "title": "Raphael Palucci Rosa",
+    "section": "",
+    "text": "Teste"
+  },
+  {
+    "objectID": "about/about.html",
+    "href": "about/about.html",
+    "title": "Raphael Palucci Rosa",
+    "section": "",
+    "text": "Teste"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Raphael P. Rosa, Ph.D.",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Github\n  \n  \n    \n     ORCiD\n  \n\n      \n    \nI am a researcher and an enthusiast for R programming and 3D-printing.\n\nMy current field of research is the development of smart textiles for medical applications, where our group is developing sensors to help rehabilitate people with severe motion control. Furthermore, I also work with the synthesis of photosensitive bio resins for 3D-printing and their functionalization (to be conductive, flame retardant, elastic, antibacterial, and so on). I hope that my work could someday help create a more sustainable world.\n    \n    \n    \n    Learn more about me here →\n    \n  \n    \n    \n  \n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "projects/projects.html",
+    "href": "projects/projects.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
     "text": "Teste"
@@ -28,15 +49,8 @@
     "text": "Teste"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Raphael P. Rosa, Ph.D.",
-    "section": "",
-    "text": "I am a researcher and an enthusiast for R programming and 3D-printing.\nMy current field of research is the development of smart textiles for medical applications, where our group is developing sensors to help rehabilitate people with severe motion control. Furthermore, I also work with the synthesis of photosensitive bio resins for 3D-printing and their functionalization (to be conductive, flame retardant, elastic, antibacterial, and so on). I hope that my work could someday help create a more sustainable world.\nLearn more about me here"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
+    "objectID": "docs/about.html",
+    "href": "docs/about.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
     "text": "Teste"

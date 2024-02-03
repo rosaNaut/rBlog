@@ -1,13 +1,13 @@
 ---
-html:
-    margin-top: 100px
 title: "Raphael P. Rosa, Ph.D."
 subtitle: "Research fellow at University of Bergamo (Italy)"
 image: Nautillus.png
+image-alt: "A Nautillus shell representing the path of scientific knowledge"
+
 about:
   template: solana
-  image-width: 20em
-  image-alt: "A Nautillus shell representing the path of scientific knowledge"
+  image-width: 23em
+  id: hero-heading
   links:
     - icon: linkedin
       text: LinkedIn
@@ -15,14 +15,31 @@ about:
     - icon: github
       text: Github
       href: https://github.com/rosaNaut
-    - icon: orcid
-      text: ORCID
+    - icon: ORCID  
+      text: ORCiD
       href: https://orcid.org/0000-0002-9744-9511
+page-layout: full
+
+execute: 
+  freeze: false
+  echo: false
+  warning: false
+
 comments: false
 ---
 
+```{=html}
+<div class="about-contents">
+  <div id = "hero-heading">
+    <p>
 I am a researcher and an enthusiast for R programming and 3D-printing.
-
+<br>
 My current field of research is the development of smart textiles for medical applications, where our group is developing sensors to help rehabilitate people with severe motion control. Furthermore, I also work with the synthesis of photosensitive bio resins for 3D-printing and their functionalization (to be conductive, flame retardant, elastic, antibacterial, and so on). I hope that my work could someday help create a more sustainable world.
-
-[Learn more about me here](%22about.qmd%22)
+    </p>
+    <p></p>
+    <a class="about-links subtitle" href="about.qmd">
+    Learn more about me here →
+    </a>
+  </div>
+</div>
+```

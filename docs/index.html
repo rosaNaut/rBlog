@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.541">
+<meta name="generator" content="quarto-1.4.549">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -94,19 +94,19 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">ABOUT</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./blog.html"> 
+    <a class="nav-link" href="./blog.qmd"> 
 <span class="menu-text">BLOG</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./guides.html"> 
+    <a class="nav-link" href="./guides.qmd"> 
 <span class="menu-text">GUIDES</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./publications.html"> 
+    <a class="nav-link" href="./publications.qmd"> 
 <span class="menu-text">PUBLICATIONS</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
+    <a class="nav-link" href="./projects.qmd"> 
 <span class="menu-text">PROJECTS</span></a>
   </li>  
 </ul>
@@ -130,12 +130,18 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     
 <!-- main -->
-<div class="quarto-about-solana column-body content">
+<main class="content page-columns page-full column-page" id="quarto-document-content">
+
+
+
+
+<div class="about-contents page-columns page-full">
+  <div class="quarto-about-solana content column-page">
   <div class="about-entity">
     <div class="entity-contents">
       <header id="title-block-header" class="quarto-title-block default">
@@ -143,7 +149,7 @@ ul.task-list li input[type="checkbox"] {
 <h1 class="title">Raphael P. Rosa, Ph.D.</h1>
 <p class="subtitle lead">Research fellow at University of Bergamo (Italy)</p>
 </div>
-<div class="quarto-title-meta">
+<div class="quarto-title-meta column-page">
   </div>
 </header> <div class="about-links">
   <a href="https://www.linkedin.com/in/raphael-palucci-rosa-79767579/" class="about-link" rel="" target="">
@@ -155,23 +161,33 @@ ul.task-list li input[type="checkbox"] {
      <span class="about-link-text">Github</span>
   </a>
   <a href="https://orcid.org/0000-0002-9744-9511" class="about-link" rel="" target="">
-    <i class="bi bi-orcid"></i>
-     <span class="about-link-text">ORCID</span>
+    <i class="bi bi-ORCID"></i>
+     <span class="about-link-text">ORCiD</span>
   </a>
 </div>
-      <div class="about-contents"><main class="content" id="quarto-document-content">
-<p>I am a researcher and an enthusiast for R programming and 3D-printing.</p>
-<p>My current field of research is the development of smart textiles for medical applications, where our group is developing sensors to help rehabilitate people with severe motion control. Furthermore, I also work with the synthesis of photosensitive bio resins for 3D-printing and their functionalization (to be conductive, flame retardant, elastic, antibacterial, and so on). I hope that my work could someday help create a more sustainable world.</p>
-<p><a href="&quot;about.qmd&quot;">Learn more about me here</a></p>
-
-
-</main></div>
+      <div class="about-contents"><div id="hero-heading">
+    <p>
+I am a researcher and an enthusiast for R programming and 3D-printing.
+<br>
+My current field of research is the development of smart textiles for medical applications, where our group is developing sensors to help rehabilitate people with severe motion control. Furthermore, I also work with the synthesis of photosensitive bio resins for 3D-printing and their functionalization (to be conductive, flame retardant, elastic, antibacterial, and so on). I hope that my work could someday help create a more sustainable world.
+    </p>
+    <p></p>
+    <a class="about-links subtitle" href="./about.html">
+    Learn more about me here →
+    </a>
+  </div></div>
     </div>
     <img src="Nautillus.png" alt="A Nautillus shell representing the path of scientific knowledge" class="about-image
-  rounded " style="width: 20em;">
+  rounded " style="width: 23em;">
   </div>
 </div>
- <!-- /main -->
+
+</div>
+
+
+
+
+<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -470,7 +486,12 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      return note.innerHTML;
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
     }
   }
   for (var i=0; i<xrefs.length; i++) {
@@ -721,7 +742,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </a>
   </li>  
     <li class="nav-item">
-    <a class="nav-link" href="./contact.html">
+    <a class="nav-link" href="./contact.qmd">
 <p>Contact</p>
 </a>
   </li>  
