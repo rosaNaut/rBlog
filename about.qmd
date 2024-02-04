@@ -1,13 +1,134 @@
 ---
 title: "Raphael Palucci Rosa"
+subtitle: "Fellow Researcher,<br>textile lab @Unibg"
 image: profile.jpg
+image-alt: "Bla"
+
 about:
   template: trestles
+  image-shape: rounded
+  id: hero-heading
   links:
     - icon: linkedin
+      aria-label: "Linkedin"
       href: https://linkedin.com
     - icon: github
+      aria-label: GitHub
       href: https://github.com
+    - text: ORCiD
+      href: https://orcid.org/0000-0002-9744-9511
+listing: 
+- id: blog
+  contents: "/blog/blog.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: guides
+  contents: "/guides/guides.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+- id: publications
+  contents: "/publications/publications.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, image]
+  max-items: 1
+  image-height: "200"
+- id: projects
+  contents: "/projects/projects.qmd"
+  sort: date desc
+  type: grid
+  grid-columns: 1
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, subtitle, image]
+  max-items: 1
+  image-height: "200"
+format: 
+  html: 
+    page-layout: full
 ---
 
-Teste
+::: {#hero-heading}
+```{=html}
+<div class="h1">Welcome, I'm happy you're here</div>
+<p>
+I'm a follow researcher in the <a href="(https://www.unibg.it/">Textile Lab</a>
+at the University of Bergamo. My research interests includes (bio)polymers, additive manufacturing, renewable materials and smart materials. Moreover, I am well-versed in sustainability analysis, biomimicry design, materials synthesis, characterization techniques, statistical data analysis, and process optimization.
+</p>
+<p>
+Currently, I am working in the development of smart materials and textiles for medical applications using 3D-printing. These new materials are going to be used for helping patients to recover part of their lost mobility. Learn more about my research in <a href="/publications.qmd">publications.</a>
+</p>
+<p>
+You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
+</p>
+```
+:::
+
+## About me
+
+```{=html}
+<div class="grid">
+  <div class="g-col-6">
+    Biomedical engineer turned informaticist, curious about all intersections of data and society.
+  </div>
+  <div class="g-col-6">
+    Biomedical engineer turned informaticist, curious about all intersections of data and society.
+  </div>
+</div>
+```
+## Lately ...
+
+:::: grid
+
+::: g-col-3
+#### Blog
+
+::: {#blog}
+:::
+[See all &rarr;](/blog/blog.qmd){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### Guides
+
+::: {#guides}
+:::
+[See all →](/guides/guides.qmd){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### Publications
+
+::: {#publications}
+:::
+[See all →](/publications/publications.qmd){.about-links .subtitle}
+:::
+
+::: g-col-3
+#### Projects
+
+::: {#projects}
+:::
+[See all →](/projects/projects.qmd){.about-links .subtitle}
+:::
+
+::::

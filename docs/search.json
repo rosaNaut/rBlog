@@ -4,28 +4,56 @@
     "href": "publications/publications.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
-    "text": "Teste"
+    "text": "Teste\n\n\n Back to top"
+  },
+  {
+    "objectID": "license.html",
+    "href": "license.html",
+    "title": "License",
+    "section": "",
+    "text": "My blog posts are released under a Creative Commons Attribution-ShareAlike 4.0 International License.\n\n{{&lt; fa brands creative-commons size=2xl &gt;}} {{&lt; fa brands creative-commons-by size=2xl &gt;}} {{&lt; fa brands creative-commons-sa size=2xl &gt;}}\n\n\n\n\n Back to top"
   },
   {
     "objectID": "guides/guides.html",
     "href": "guides/guides.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
-    "text": "Teste"
+    "text": "Teste\n\n\n Back to top"
   },
   {
     "objectID": "blog/blog.html",
     "href": "blog/blog.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
-    "text": "Teste"
+    "text": "Teste\n\n\n Back to top"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Raphael Palucci Rosa",
+    "section": "",
+    "text": "ORCiD\n  \n\n  \n  \nWelcome, I'm happy you're here\n\nI'm a follow researcher in the Textile Lab\nat the University of Bergamo. My research interests includes (bio)polymers, additive manufacturing, renewable materials and smart materials. Moreover, I am well-versed in sustainability analysis, biomimicry design, materials synthesis, characterization techniques, statistical data analysis, and process optimization.\n\n\nCurrently, I am working in the development of smart materials and textiles for medical applications using 3D-printing. These new materials are going to be used for helping patients to recover part of their lost mobility. Learn more about my research in publications.\n\n\nYou can also get in touch by sending me a message."
   },
   {
     "objectID": "about/about.html",
     "href": "about/about.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
-    "text": "Teste"
+    "text": "Teste\n\n\n Back to top"
+  },
+  {
+    "objectID": "accessibility.html",
+    "href": "accessibility.html",
+    "title": "Raphael Palucci Rosa",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "contact/contact.html",
+    "href": "contact/contact.html",
+    "title": "Raphael Palucci Rosa",
+    "section": "",
+    "text": "Back to top"
   },
   {
     "objectID": "index.html",
@@ -39,20 +67,20 @@
     "href": "projects/projects.html",
     "title": "Raphael Palucci Rosa",
     "section": "",
-    "text": "Teste"
+    "text": "Teste\n\n\n Back to top"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
+    "objectID": "about.html#about-me",
+    "href": "about.html#about-me",
     "title": "Raphael Palucci Rosa",
-    "section": "",
-    "text": "Teste"
+    "section": "About me",
+    "text": "About me\n\n  \n    Biomedical engineer turned informaticist, curious about all intersections of data and society.\n  \n  \n    Biomedical engineer turned informaticist, curious about all intersections of data and society."
   },
   {
-    "objectID": "docs/about.html",
-    "href": "docs/about.html",
+    "objectID": "about.html#lately",
+    "href": "about.html#lately",
     "title": "Raphael Palucci Rosa",
-    "section": "",
-    "text": "Teste"
+    "section": "Lately …",
+    "text": "Lately …\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\nRaphael Palucci Rosa\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nGuides\n\n\n\n\n\n\n\n\n\n\nRaphael Palucci Rosa\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nPublications\n\n\n\n\n\n\n\n\n\n\nRaphael Palucci Rosa\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →\n\n\nProjects\n\n\n\n\n\n\n\n\n\n\nRaphael Palucci Rosa\n\n\n\n\n\n\n\nNo matching items\n\n\nSee all →"
   }
 ]
