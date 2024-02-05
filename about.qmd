@@ -2,7 +2,7 @@
 title: "Raphael Palucci Rosa"
 subtitle: "Fellow Researcher,<br>textile lab @Unibg"
 image: profile.jpg
-image-alt: "Bla"
+image-alt: "White man with black eyes and (some) hair using a floral shirt"
 
 about:
   template: trestles
@@ -88,23 +88,32 @@ You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
 ```{=html}
 <div class="grid">
   <div class="g-col-6">
-    Biomedical engineer turned informaticist, curious about all intersections of data and society.
+    <p>
+    Chemical engineer who likes (bio)plastics and renewable materials. Secretly passionate about astronomy, international politics, sociology and analyzing data.     </p><p>
+    I enjoy using <a href="https://www.r-project.org/about.html">R</a> to analyze my results and optimize my experiments. Due to the constant usage of R, I started applying it to other things that I think are interesting, such as how climate change will affect cities and some cooking recepies. 
+    </p>
   </div>
   <div class="g-col-6">
-    Biomedical engineer turned informaticist, curious about all intersections of data and society.
+    <p>
+    In the Lab, I am responsible for mentoring the PhD students, writing laboratory guidelines, instrumentation calibration and training, help manager the laboratory resources, developing and updating the laboratory blog and helping to find new PhD candidates. 
+    </p><p>
+    I am trained to operate several types of laboratorial instruments, such as (...). To help me learn how to operate all these equipments I have created various guidelines, where you can check them out by cliking here or going to the guides section. 
+    </p><p>
+    Finally, you can check all my (...) by visiting my linkedin page, or by cliking here.
+     </p> 
   </div>
 </div>
 ```
 ## Lately ...
 
-:::: grid
-
+::: grid
 ::: g-col-3
 #### Blog
 
 ::: {#blog}
 :::
-[See all &rarr;](/blog/blog.qmd){.about-links .subtitle}
+
+[See all →](/blog/blog.qmd){.about-links .subtitle}
 :::
 
 ::: g-col-3
@@ -112,6 +121,7 @@ You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
 
 ::: {#guides}
 :::
+
 [See all →](/guides/guides.qmd){.about-links .subtitle}
 :::
 
@@ -120,6 +130,7 @@ You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
 
 ::: {#publications}
 :::
+
 [See all →](/publications/publications.qmd){.about-links .subtitle}
 :::
 
@@ -128,7 +139,7 @@ You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
 
 ::: {#projects}
 :::
+
 [See all →](/projects/projects.qmd){.about-links .subtitle}
 :::
-
-::::
+:::
