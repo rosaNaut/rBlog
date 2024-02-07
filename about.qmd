@@ -97,9 +97,9 @@ You can also get in touch by <a href="/contact.qmd">sending me a message.</a>
     <p>
     In the Lab, I am responsible for mentoring the PhD students, writing laboratory guidelines, instrumentation calibration and training, help manager the laboratory resources, developing and updating the laboratory blog and helping to find new PhD candidates. 
     </p><p>
-    I am trained to operate several types of laboratorial instruments, such as (...). To help me learn how to operate all these equipments I have created various guidelines, where you can check them out by cliking here or going to the guides section. 
+    I was trained to perform several types of laboratorial analysis. To help me learn how to operate all these equipments I have created various guidelines, and you can check them out by cliking <a href="/guides.qmd">here</a> or going to the guides section. 
     </p><p>
-    Finally, you can check all my (...) by visiting my linkedin page, or by cliking here.
+    Finally, you can check all my qualifications by visiting my linkedin page, or by cliking <a href="/curriculum.qmd">here</a>.
      </p> 
   </div>
 </div>
