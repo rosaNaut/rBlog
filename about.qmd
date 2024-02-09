@@ -17,6 +17,7 @@ about:
       href: https://github.com
     - text: ORCiD
       href: https://orcid.org/0000-0002-9744-9511
+
 listing: 
 - id: blog
   contents: "/blog/blog.qmd"
@@ -62,6 +63,7 @@ listing:
   fields: [title, subtitle, image]
   max-items: 1
   image-height: "200"
+
 format: 
   html: 
     page-layout: full

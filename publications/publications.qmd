@@ -1,13 +1,31 @@
 ---
-title: "Raphael Palucci Rosa"
-image: profile.jpg
-about:
-  template: trestles
-  links:
-    - icon: linkedin
-      href: https://linkedin.com
-    - icon: github
-      href: https://github.com
+title: "Publications" 
+description: |
+  Here you can find a list of my research publications.
+
+listing: 
+- id: publi_1  
+  contents: "/Photopolymer acrylate-based resins with acrylated epoxidized soybean oil for 3D printing/index.qmd"
+  sort: "date desc"
+  type: default
+  categories: false
+  sort-ui: false
+  filter-ui: false
+  fields: [title, author, date, keywords]
+  image-align: left
+  # image-height: 10em
+  page-size: 5
+
+format: 
+  html: 
+    page-layout: full
+title-block-banner: false
 ---
 
-Teste
+## Photopolymer acrylate-based resins with acrylated epoxidized soybean oil for 3D printing
+
+<div>
+
+{#publi_1}
+
+</div>

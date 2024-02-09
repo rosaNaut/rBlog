@@ -7,5 +7,9 @@
       "/publications/publications.html",
       "/projects/projects.html"
     ]
+  },
+  {
+    "listing": "/publications/publications.html",
+    "items": []
   }
 ]

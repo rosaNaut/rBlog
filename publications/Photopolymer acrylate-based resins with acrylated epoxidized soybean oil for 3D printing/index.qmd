@@ -1,0 +1,30 @@
+---
+title: "Photosensitive acrylates containing bio-based epoxy-acrylate soybean oil for 3D printing application"
+author: 
+- name: Giuseppe Rosace
+  orcid: 0000-0003-0604-4453
+- name: Raphael Palucci Rosa
+  orcid: 0000-0002-9744-9511
+- name: Rossella Arrigo
+  orcid: 0000-0002-0291-2519
+- name: Giulio Malucelli
+  orcid: 0000-0002-0459-7698
+date: "17-06-2021"
+categories:
+- Research 
+- (Bio)materials
+- Additive manufacturing
+- Characterization
+- Polymers
+description: "Scientific Reports"
+subtitle: (...)
+links:
+- icon: file-richtext-fill
+  name: Publication
+  url: https://doi.org/10.1002/app.51292
+lightbox: auto 
+---
+
+## Abstract
+
+Stereolithography is a 3D-printing process that is rapidly shifting from being an expensive and limited technology to an affordable, precise, and fast method of mass production. However, most of the current resins are petroleum-based, which makes them toxic, non-degradable and with poor biocompatibility. In this study, a standard petroleum-based resin containing urethane acrylate and acrylic monomers was combined with epoxy-acrylate soybean oil (EASO), aiming to reduce its impact on the environment. Ratios varying from 10 to 50 wt% of EASO were incorporated into the commercial resin while maintaining the viscosity low, between 0.27 and 1.06 Pa s. The printed samples showed good quality and complete integration between the layers. The addition of 50 wt% of EASO increased the samples elongation at break by 108% (from 2.3% to 4.8%) and decreased the contact angle by 26.4% (from 72 to 53). Moreover, the mixture showed good thermal and swelling stability and tensile strength in the range of other commercial cured systems. The addition of EASO may significantly contribute to the exploitation of greener materials, which well matches today's circular economy concept.
